@@ -1,0 +1,8 @@
+0c94760381318e2fc5525fa69e7540d3 *DESCRIPTION
+dd17e4283e01ccee8aab15b6aa0e304f *NAMESPACE
+46588c164faa11fb3b7b2dedac5559e5 *R/OData.R
+2cf60de3e2fb98fb1c6edbe2761694fe *man/OData.Rd
+39748e40790865edf25d6b8f7775cd85 *man/downloadResourceCsv.Rd
+c83d1ff5d13f479a54aeba1f14e46321 *man/entitySets.Rd
+e3bf3c6e23942362428cd1af3d07c56e *man/metadata.Rd
+e82dbbc0485b8985a73cf509445bf06e *man/retrieveData.Rd
