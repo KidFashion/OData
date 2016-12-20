@@ -16,7 +16,7 @@ The metadata of the OData target
 Get the metadata for a specific web service based on OData Protocol
 }
 \examples{
-metadata("http://odata.research.microsoft.com/odata.svc/$metadata")
+metadata("http://services.odata.org/TripPinRESTierService/$metadata")
 }
 \author{
 BPM-Conseil

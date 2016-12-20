@@ -15,7 +15,7 @@ NULL
 #' @return The metadata of the OData target
 #' @author BPM-Conseil
 #' @examples
-#' metadata("http://odata.research.microsoft.com/odata.svc/$metadata")
+#' metadata("http://services.odata.org/TripPinRESTierService/$metadata")
 metadata <- function(url) {
   metadataContent <- XML::xmlParse(paste(readLines(url, warn=FALSE), collapse=""))
   root = XML::xmlRoot(metadataContent)
@@ -30,7 +30,7 @@ metadata <- function(url) {
 #' @return EnitySets of the OData target
 #' @author BPM-Conseil
 #' @examples
-#' entitySets("http://odata.research.microsoft.com/odata.svc/?$format=json")
+#' entitySets("http://services.odata.org/TripPinRESTierService/?$format=json")
 entitySets <- function(url) {
   sets <- RJSONIO::fromJSON(paste(readLines(url, warn=FALSE), collapse=""))
 
@@ -56,7 +56,7 @@ entitySets <- function(url) {
 #' @return Data from the OData web service
 #' @author BPM-Conseil
 #' @examples
-#' retrieveData("http://odata.research.microsoft.com/odata.svc/Labs?$format=json")
+#' retrieveData("http://services.odata.org/TripPinRESTierService/Airports/?$format=json")
 retrieveData <- function(url) {
   sets <- RJSONIO::fromJSON(paste(readLines(url, warn=FALSE), collapse=""))
   return (sets)

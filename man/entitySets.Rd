@@ -16,7 +16,7 @@ EnitySets of the OData target
 Get a list of EntitySets for a web service base on OData
 }
 \examples{
-entitySets("http://odata.research.microsoft.com/odata.svc/?$format=json")
+entitySets("http://services.odata.org/TripPinRESTierService/?$format=json")
 }
 \author{
 BPM-Conseil

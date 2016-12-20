@@ -16,7 +16,7 @@ Data from the OData web service
 Retrieve data as list from a dataset
 }
 \examples{
-retrieveData("http://odata.research.microsoft.com/odata.svc/Labs?$format=json")
+retrieveData("http://services.odata.org/TripPinRESTierService/Airports/?$format=json")
 }
 \author{
 BPM-Conseil
